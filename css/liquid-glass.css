@@ -1,0 +1,104 @@
+/*
+LIQUID-GLASS.CSS
+
+O efeito ainda não está pronto. Esse arquivo fica como guia pra gente construir o padrão juntos.
+
+A ideia é usar Liquid Glass em cards, menus, botões, inputs, painéis e modais.
+
+Por onde começar:
+
+1. Transparência
+
+Testar fundos com rgba() ou outra forma de trabalhar com alpha.
+
+2. Blur do que está atrás
+
+Pesquisar:
+backdrop-filter
+-webkit-backdrop-filter
+
+3. Borda
+
+Uma borda clara e com transparência ajuda a dar sensação de vidro.
+
+4. Profundidade
+
+Vale estudar:
+box-shadow
+inset
+perspective
+transform
+translateY()
+rotateX()
+rotateY()
+
+Não precisa exagerar na sombra. A ideia é dar profundidade, não criar uma mancha preta atrás do componente.
+
+5. Reflexo
+
+Dá pra usar:
+::before
+::after
+
+Esses pseudo-elementos podem criar uma faixa de luz ou reflexo passando pelo vidro.
+
+6. Gradientes
+
+Pesquisar:
+linear-gradient()
+radial-gradient()
+
+Só vamos manter um padrão. Se cada componente tiver um gradiente diferente, perde a identidade.
+
+7. Hover
+
+Algumas coisas que vale testar:
+subir alguns pixels
+aumentar um pouco o brilho
+mudar a borda de leve
+inclinar em 3D
+mover um reflexo
+
+8. Botões
+
+Os botões precisam partir de uma base comum. Depois a gente cria variações, por exemplo principal, secundário e alerta.
+
+9. Cards
+
+Todo card precisa seguir o mesmo sistema visual.
+
+No HTML, usamos a tag semântica certa primeiro. Depois entram as classes do efeito.
+
+10. Menu
+
+A estrutura continua sendo:
+
+<header>
+  <nav></nav>
+</header>
+
+O efeito de vidro entra só no CSS.
+
+11. Acessibilidade
+
+Sempre conferir contraste, foco do teclado e leitura do texto.
+
+12. Movimento reduzido
+
+Quando começar a entrar animação, pesquisar:
+prefers-reduced-motion
+
+Uma ordem boa pra montar o efeito é:
+transparência
+blur
+borda
+sombra
+profundidade
+reflexo
+hover
+animação
+responsividade
+acessibilidade
+
+A ideia é entender o efeito aos poucos, e não só copiar um bloco pronto da internet.
+*/

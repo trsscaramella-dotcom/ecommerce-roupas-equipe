@@ -1,0 +1,18 @@
+/*
+GLOBAL.CSS
+
+Aqui vão ficar só as regras que realmente valem pro site inteiro.
+
+Quando a gente começar o CSS, esse arquivo pode receber coisas como:
+reset
+box-sizing
+fonte
+cores gerais
+variáveis em :root
+body
+links
+imagens
+algumas regras de acessibilidade
+
+Se o estilo serve só pra uma página ou componente específico, melhor não jogar aqui.
+*/

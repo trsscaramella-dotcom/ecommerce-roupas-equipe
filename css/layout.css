@@ -1,0 +1,28 @@
+/*
+LAYOUT.CSS
+
+Esse arquivo vai cuidar da estrutura das páginas.
+
+O desenho que combinamos é:
+
+HEADER ocupando toda a largura
+
+COLUNA ESQUERDA | COLUNA CENTRAL | COLUNA DIREITA
+
+FOOTER ocupando toda a largura
+
+No desktop, o main deve usar CSS Grid com três colunas.
+
+Como ponto de partida, dá pra testar algo perto disso:
+coluna esquerda entre 20% e 25%
+coluna central entre 50% e 60%
+coluna direita entre 20% e 25%
+
+Não deixei o grid pronto de propósito. Essa parte vai ser feita e revisada pela equipe.
+
+No tablet a gente pode diminuir as laterais ou reorganizar a grade.
+
+No celular, provavelmente vai fazer mais sentido empilhar as áreas. Só precisamos cuidar pra coluna principal continuar fácil de acessar.
+
+Header e footer devem ir de uma ponta até a outra da tela.
+*/
